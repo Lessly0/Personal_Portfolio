@@ -1,2 +1,23 @@
-
-
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap');
+/* ── CSS Variables ── */
+:root {
+    --pink:   #c9a8a8;
+    --blush:  #e8d5d5;
+    --card:   #ecdada;
+    --black:  #1a1a1a;
+    --grey:   #555;
+    --white:  #ffffff;
+    --nav-bg: #f5eded;
+  }
+  
+  *{
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }  
+  
+  body {
+    font-family: 'DM Sans', sans-serif;
+    color: var(--black);
+    background: var(--white);
+  }
