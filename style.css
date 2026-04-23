@@ -73,7 +73,7 @@ section {
     gap: 60px;
     max-width: 800px;
     margin-bottom: 150px;
-    margin-left: 250px;
+    margin-left: 350px;
   
   }
   .avatar {
@@ -106,7 +106,6 @@ section {
     cursor: pointer;
     text-decoration: none;
     font-family: 'DM Sans', sans-serif;
-    transition: opacity 0.2s;
   }
   .btn:hover { opacity: 0.8; }
   .btn-outline { border: 1px solid #ccc; color: var(--black); background: transparent; }
@@ -137,7 +136,7 @@ section {
   gap: 60px;
   max-width: 900px;
   margin-bottom: 150px;
-  margin-left: 250px;
+  margin-left: 350px;
 }
 #about .avatar { 
     width: 200px; 
