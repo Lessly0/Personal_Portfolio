@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Node (if applicable)
+node_modules/
+
+# Logs
+*.log
+
+# Environment files
+.env
