@@ -127,4 +127,43 @@ section {
        background: var(--pink); 
        color: var(--black); 
   }
+  /* About */
+#about { 
+    background: #faf7f7; 
+}
+#about .content {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  max-width: 900px;
+  margin-bottom: 150px;
+  margin-left: 250px;
+}
+#about .avatar { 
+    width: 200px; 
+    height: 200px; 
+}
+.about-text h2 {
+  font-family: 'DM Serif Display', serif;
+  font-size: 2rem;
+  margin-bottom: 4px;
+}
+.about-text .role { 
+    font-size: 0.95rem; color: var(--grey); 
+    margin-bottom: 24px; 
+}
+.about-text h3 {
+  font-size: 0.78rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  color: var(--black);
+}
+.about-text p {
+  font-size: 0.95rem;
+  line-height: 1.75;
+  color: var(--grey);
+  max-width: 520px;
+}
+
   
